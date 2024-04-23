@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockey Haven Hub</title>
+
+    <!-- Taiwind Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="manrope">
+    <header>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">Hockey Haven Hub</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Get Ticket</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Carousel Section -->
+      <div class="carousel w-full">
+        <div id="item1" class="carousel-item w-full">
+          <img src="Images/12.png" class="w-full" />
+        </div>
+        <div id="item2" class="carousel-item w-full">
+          <img src="Images/13.png" class="w-full" />
+        </div>
+        <div id="item3" class="carousel-item w-full">
+          <img src="Images/14.png" class="w-full" />
+        </div>
+        <div id="item4" class="carousel-item w-full">
+          <img src="Images/15.png" class="w-full" />
+        </div>
+      </div>
+      <div class="flex justify-center w-full py-2 gap-2">
+        <a href="#item1" class="btn btn-xs">1</a>
+        <a href="#item2" class="btn btn-xs">2</a>
+        <a href="#item3" class="btn btn-xs">3</a>
+        <a href="#item4" class="btn btn-xs">4</a>
+      </div>
+      <!-- Carousel Section  End-->
+
+      <!-- Professional Hockey Club Section -->
+      <div class="text-center mt-5 m-5">
+        <h1 class="text-2xl lg:text-5xl mb-5">Professional Hockeys Club</h1>
+        <p class="text-sm lg:text-base">
+          Welcome to the online home of Hockey Haven Hub, where passion meets
+          excellence on the ice.
+        </p>
+        <div
+          class="flex flex-wrap justify-center item-center lg:flex-nowrap gap-5 mt-5 pt-12"
+        >
+          <div>
+            <div
+              class="radial-progress text-red-500"
+              style="--value: 87"
+              role="progressbar"
+            >
+              87%
+            </div>
+            <div>
+              <h1>Prayer Facility</h1>
+              <p>
+                Your sanctuary for spiritual solace and devotion, offering a
+                serene prayer facility for all
+              </p>
+            </div>
+          </div>
+          <div>
+            <div
+              class="radial-progress text-green-400"
+              style="--value: 95"
+              role="progressbar"
+            >
+              95%
+            </div>
+            <div>
+              <h1>Experienced Coach</h1>
+              <p>
+                Guiding athletes to greatness with seasoned expertise and
+                personalized coaching
+              </p>
+            </div>
+          </div>
+          <div>
+            <div
+              class="radial-progress text-yellow-300"
+              style="--value: 90"
+              role="progressbar"
+            >
+              90%
+            </div>
+            <div>
+              <h1>Senior Player</h1>
+              <p>
+                A seasoned veteran, bringing leadership and skill to the game as
+                a senior player
+              </p>
+            </div>
+          </div>
+          <div>
+            <div
+              class="radial-progress text-blue-500"
+              style="--value: 80"
+              role="progressbar"
+            >
+              80%
+            </div>
+            <div>
+              <h1>Training Ground</h1>
+              <p>
+                The premier destination for honing skills and fostering
+                excellence on the training ground.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Professional Hockey Club Section Ened-->
+    </main>
+    <footer></footer>
+  </body>
+</html>
